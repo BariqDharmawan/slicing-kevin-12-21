@@ -1,0 +1,11 @@
+.top-right-parent {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg {
+    &-red {
+        background-color: $red-custom;
+    }
+}
