@@ -20,249 +20,374 @@
 
     <main class="py-5">
         <div class="container">
-            <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item mr-3" role="presentation">
-                    <a class="nav-link rounded-pill nav-link--red-active text-dark active" id="pill-packing-tab" data-toggle="pill" 
-                    href="#pill-packing" role="tab" aria-controls="pill-packing" aria-selected="true">
-                        <i class="fas fa-box"></i>
-                        (0) <!-- use count -->
-                    </a>
-                </li>
-                <li class="nav-item mr-3" role="presentation">
-                    <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-otw-tab" data-toggle="pill" 
-                    href="#pills-otw" role="tab"
-                    aria-controls="pills-otw" aria-selected="false">
-                        <i class="fas fa-motorcycle"></i>
-                        (1) <!-- use count -->
-                    </a>
-                </li>
-                <li class="nav-item mr-3" role="presentation">
-                    <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-home-tab" data-toggle="pill" 
-                    href="#pills-home" role="tab"
-                    aria-controls="pills-home" aria-selected="false">
-                        <i class="fas fa-home"></i>
-                        (2) <!-- use count -->
-                    </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-checked-tab" data-toggle="pill" 
-                    href="#pills-checked" role="tab"
-                    aria-controls="pills-checked" aria-selected="false">
-                        <i class="far fa-check-circle"></i>
-                        (3) <!-- use count -->
-                    </a>
-                </li>
-            </ul>
-            <div class="tab-content py-5" id="pills-tabContent">
-                <div class="tab-pane fade show active text-center" id="pill-packing" role="tabpanel" aria-labelledby="pill-packing-tab">
-                    <span class="fs-5rem d-block">
-                        <i class="fas fa-box-open text-red"></i>
-                    </span>
-                    <p class="h4 text-black-50 mt-2">You don't have any processing order</p>
+            <div class="row justify-content-center mx-0">
+                <div class="col-lg-4 px-lg-0">
+                    <ul class="nav nav-pills mb-3 w-100 justify-content-between" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill nav-link--red-active text-dark active" id="pill-packing-tab" data-toggle="pill" 
+                            href="#pill-packing" role="tab" aria-controls="pill-packing" aria-selected="true">
+                                <i class="fas fa-box"></i>
+                                (0) <!-- use count -->
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-otw-tab" data-toggle="pill" 
+                            href="#pills-otw" role="tab"
+                            aria-controls="pills-otw" aria-selected="false">
+                                <i class="fas fa-motorcycle"></i>
+                                (1) <!-- use count -->
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-home-tab" data-toggle="pill" 
+                            href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="false">
+                                <i class="fas fa-home"></i>
+                                (2) <!-- use count -->
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill nav-link--red-active text-dark" id="pills-checked-tab" data-toggle="pill" 
+                            href="#pills-checked" role="tab"
+                            aria-controls="pills-checked" aria-selected="false">
+                                <i class="far fa-check-circle"></i>
+                                (2) <!-- use count -->
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="tab-pane fade" id="pills-otw" role="tabpanel" aria-labelledby="pills-otw-tab">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <article class="d-flex">
-                                <div>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
-                                </div>
-                                <div class="pl-3">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                </div>
-                            </article>
+            </div>
+            <div class="row justify-content-center mx-0">
+                <div class="col-lg-4 px-lg-0">
+                    <div class="tab-content py-5" id="pills-tabContent">
+                        <div class="tab-pane fade show active text-center" id="pill-packing" role="tabpanel" aria-labelledby="pill-packing-tab">
+                            <img src="dist/img/empty.jpeg" alt="" height="130px">
+                            <p class="text-black-50 mt-2">You don't have any processing order</p>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <div class="card shadow-sm mb-4"> <!-- add .mb-4 if element not last -->
-                        <div class="card-body">
-                            <article class="d-flex">
-                                <div>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
-                                </div>
-                                <div class="pl-3">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <article class="d-flex">
-                                <div>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
-                                </div>
-                                <div class="pl-3">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-checked" role="tabpanel" aria-labelledby="pills-checked-tab">
-                    
-                    <div class="card shadow-sm mb-4"> <!-- add .mb-4 if element not last -->
-                        <div class="card-body">
-                            <ul>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Invoice</span>
-                                    <span class="text-black-50">908safas98f</span>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Total</span>
-                                    <span class="text-black-50">Rp. 180.000.000</span>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">ETA</span>
-                                    <time class="text-black-50">Jumat, 10 Dec 2021</time>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Delivery Status</span>
-                                    <span class="badge badge-warning d-inline-flex align-items-center">In progress</span>
-                                </li>
-                            </ul>
-                            <article class="d-flex border-bottom pb-3 mb-3"> 
-                            <!-- add class .border-bottom.pb-3.mb-3 if not last -->
-                                <div class="d-flex">
-                                    <form action="" method="post" class="mr-3">
-                                        <div class="custom-control custom-checkbox
-                                        custom-checkbox--manual-icon custom-checkbox--rounded">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">
-                                                <i class="fas fa-check"></i>
-                                            </label>
+                        <div class="tab-pane fade" id="pills-otw" role="tabpanel" aria-labelledby="pills-otw-tab">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <article class="d-flex">
+                                        <div>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
                                         </div>
-                                    </form>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
-                                </div>
-                                <div class="pl-3 flex-grow-1 position-relative">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                    <a href="" class="top-right-parent h5 text-red">
-                                        <i class="fas fa-comment-dots"></i>
-                                    </a>
-                                </div>
-                            </article>
-                            <article class="d-flex">
-                                <div class="d-flex">
-                                    <form action="" method="post" class="mr-3">
-                                        <div class="custom-control custom-checkbox
-                                        custom-checkbox--manual-icon custom-checkbox--rounded">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">
-                                                <i class="fas fa-check"></i>
-                                            </label>
+                                        <div class="pl-3">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
                                         </div>
-                                    </form>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                    </article>
                                 </div>
-                                <div class="pl-3 flex-grow-1 position-relative">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                    <a href="" class="top-right-parent h5 text-red">
-                                        <i class="fas fa-comment-dots"></i>
-                                    </a>
-                                </div>
-                            </article>
+                            </div>
                         </div>
-                    </div>
+                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="card shadow-sm mb-4"> <!-- add .mb-4 if element not last -->
+                                <div class="card-body">
+                                    <article class="d-flex">
+                                        <div>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="card shadow-sm mb-4"> <!-- add .mb-4 if element not last -->
+                                <div class="card-body">
+                                    <article class="d-flex">
+                                        <div>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <article class="d-flex">
+                                        <div>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-checked" role="tabpanel" aria-labelledby="pills-checked-tab">
+                            
+                            <div class="card shadow-sm mb-4"> <!-- add .mb-4 if element not last -->
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Invoice</span>
+                                            <span class="text-black-50">908safas98f</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Total</span>
+                                            <span class="text-black-50">Rp. 180.000.000</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">ETA</span>
+                                            <time class="text-black-50">Jumat, 10 Dec 2021</time>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Delivery Status</span>
+                                            <span class="badge badge-warning d-inline-flex align-items-center">In progress</span>
+                                        </li>
+                                    </ul>
+        
+                                    <!-- add class .card-disabled if In rogress -->
+                                    <article class="d-flex border-bottom pb-3 mb-3 card--disabled"> 
+                                        <!-- add class .border-bottom.pb-3.mb-3 if not last -->
+                                        
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex">
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <!-- add "checked" if delivered -->
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2" checked disabled>
+                                                    <label class="custom-control-label" for="customCheck2">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+        
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Invoice</span>
+                                            <span class="text-black-50">908safas98f</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Total</span>
+                                            <span class="text-black-50">Rp. 180.000.000</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">ETA</span>
+                                            <time class="text-black-50">Jumat, 10 Dec 2021</time>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Delivery Status</span>
+                                            <span class="badge badge-success d-inline-flex align-items-center">Delivered</span>
+                                        </li>
+                                    </ul>
+                                    <article class="d-flex border-bottom pb-3 mb-3"> 
+                                    <!-- add class .border-bottom.pb-3.mb-3 if not last -->
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <!-- add "checked" if delivered -->
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3" checked disabled>
+                                                    <label class="custom-control-label" for="customCheck3">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+                                    <article class="d-flex">
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <!-- add "checked" if delivered -->
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4" checked disabled>
+                                                    <label class="custom-control-label" for="customCheck4">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
+                                        </div>
+                                    </article>
+        
+                                    <!-- show this form if status delivered -->
+                                    <form action="" method="post" class="mt-4">
+                                        <button class="btn bg-red rounded-pill py-3 text-white d-block w-100">Close order</button>
+                                    </form>
+                                </div>
+                            </div>
 
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <ul>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Invoice</span>
-                                    <span class="text-black-50">908safas98f</span>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Total</span>
-                                    <span class="text-black-50">Rp. 180.000.000</span>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">ETA</span>
-                                    <time class="text-black-50">Jumat, 10 Dec 2021</time>
-                                </li>
-                                <li class="d-flex justify-content-between mb-4">
-                                    <span class="font-weight-bold">Delivery Status</span>
-                                    <span class="badge badge-success d-inline-flex align-items-center">Delivered</span>
-                                </li>
-                            </ul>
-                            <article class="d-flex border-bottom pb-3 mb-3"> 
-                            <!-- add class .border-bottom.pb-3.mb-3 if not last -->
-                                <div class="d-flex">
-                                    <form action="" method="post" class="mr-3">
-                                        <div class="custom-control custom-checkbox
-                                        custom-checkbox--manual-icon custom-checkbox--rounded">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">
-                                                <i class="fas fa-check"></i>
-                                            </label>
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Invoice</span>
+                                            <span class="text-black-50">908safas98f</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Total</span>
+                                            <span class="text-black-50">Rp. 180.000.000</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">ETA</span>
+                                            <time class="text-black-50">Jumat, 10 Dec 2021</time>
+                                        </li>
+                                        <li class="d-flex justify-content-between mb-4">
+                                            <span class="font-weight-bold">Delivery Status</span>
+                                            <span class="badge badge-secondary bg-almost-grey 
+                                            text-dark d-inline-flex align-items-center">
+                                                Closed
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <article class="d-flex border-bottom pb-3 mb-3"> 
+                                    <!-- add class .border-bottom.pb-3.mb-3 if not last -->
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <!-- add "checked" if Closed -->
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3" checked disabled>
+                                                    <label class="custom-control-label" for="customCheck3">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
                                         </div>
-                                    </form>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
-                                </div>
-                                <div class="pl-3 flex-grow-1 position-relative">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                    <a href="" class="top-right-parent h5 text-red">
-                                        <i class="fas fa-comment-dots"></i>
-                                    </a>
-                                </div>
-                            </article>
-                            <article class="d-flex">
-                                <div class="d-flex">
-                                    <form action="" method="post" class="mr-3">
-                                        <div class="custom-control custom-checkbox
-                                        custom-checkbox--manual-icon custom-checkbox--rounded">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">
-                                                <i class="fas fa-check"></i>
-                                            </label>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
                                         </div>
-                                    </form>
-                                    <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                    </article>
+                                    <article class="d-flex">
+                                        <div class="d-flex">
+                                            <form action="" method="post" class="mr-3">
+                                                <div class="custom-control custom-checkbox
+                                                custom-checkbox--manual-icon custom-checkbox--rounded">
+                                                    <!-- add "checked" if delivered -->
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4" checked disabled>
+                                                    <label class="custom-control-label" for="customCheck4">
+                                                        <i class="fas fa-check"></i>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                            <img src="dist/img/pixel.jpeg" alt="" height="70px" width="70px" class="rounded">
+                                        </div>
+                                        <div class="pl-3 pr-4 flex-grow-1 position-relative">
+                                            <p class="font-weight-bold">
+                                                Google Pixel 6 - Singapore Edition
+                                            </p>
+                                            <p class="text-black-50 m-0">
+                                                <span>1x</span>
+                                                <span>Rp. 60.000.000</span>
+                                            </p>
+                                            <a href="" class="top-right-parent h5 text-red">
+                                                <i class="fas fa-comment-dots"></i>
+                                            </a>
+                                        </div>
+                                    </article>
                                 </div>
-                                <div class="pl-3 flex-grow-1 position-relative">
-                                    <p class="font-weight-bold h6">Google Pixel 6</p>
-                                    <p class="text-black-50 m-0">
-                                        <span>1x</span>
-                                        <span>Rp. 60.000.000</span>
-                                    </p>
-                                    <a href="" class="top-right-parent h5 text-red">
-                                        <i class="fas fa-comment-dots"></i>
-                                    </a>
-                                </div>
-                            </article>
-
-                            <!-- show this form if status delivered -->
-                            <form action="" method="post" class="mt-4">
-                                <button class="btn bg-red rounded-pill py-3 text-white d-block w-100">Close order</button>
-                            </form>
+                            </div>
+        
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

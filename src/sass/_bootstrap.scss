@@ -74,5 +74,9 @@ ul {
 @media screen and (min-width: map-get($grid-breakpoints, 'lg')) {
     .container {
         max-width: 1140px;
+
+        &--max-phone {
+            max-width: map-get($grid-breakpoints, 'sm');
+        }
     }
 }
